@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery.search.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/heavydutylogo1.png" width="60" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Lista de Trabajadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <h2 id="Lista" class="text-center" style="padding-top: 2rem;">Lista de Trabajadores</h2>
+
+
+    <div class="container">
+        <form class="form">
+            <div class="form-group">
+                <label for="jquery-search-sample">Buscar:</label>
+                <input type="text" class="form-control" id="jquery-search-sample"/>
+            </div>
+        </form>
+        <table class="table table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Cargo</th> 
+                    <th>Ficha</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Alan Andrés</td>
+                    <td class="jsearch-field">Espinoza Acevedo</td>
+                    <td class="jsearch-field">Jefe de Equipo de Mantención </td>
+                    <td><a href="Perfiles/01-alan-espinoza-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Alejandro</td>
+                    <td class="jsearch-field">González López </td>
+                    <td class="jsearch-field">Jefe Montaje PC</td>
+                    <td><a href="Perfiles/02-alejandro-gonzalez-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Alejandro Edwards</td>
+                    <td class="jsearch-field">Tapia Aravena</td>
+                    <td class="jsearch-field">Ayudante Montaje GT</td>
+                    <td><a href="Perfiles/03-alejandro-tapia-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Andrés Ignacio</td>
+                    <td class="jsearch-field">Cruz Reyes</td>
+                    <td class="jsearch-field">Ayudante Montaje GT</td>
+                    <td><a href="Perfiles/04-andres-cruz-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Bryan Esteban</td>
+                    <td class="jsearch-field">Gajardo Marambio</td>
+                    <td class="jsearch-field">Ayudante Montaje PC</td>
+                    <td><a href="Perfiles/05-bryan-gajardo-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Carlos Gustabo</td>
+                    <td class="jsearch-field">Alvarado Soto </td>
+                    <td class="jsearch-field">Jefe Montaje PC </td>
+                    <td><a href="Perfiles/06-carlos-alvarado-perfil.html">>Ver ficha</a></td>
+
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Eduardo Francisco</td>
+                    <td class="jsearch-field">Muñoz Moreno</td>
+                    <td class="jsearch-field">Ayudante Montaje GT</td>
+                    <td><a href="Perfiles/07-eduardo-muñoz-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Erick Gethe</td>
+                    <td class="jsearch-field">Falkenhagen Castillo</td>
+                    <td class="jsearch-field">Técnico en Mantención y Emergencia </td>
+                    <td><a href="Perfiles/08-erik-falkenhagen-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Fabián Alejandro</td>
+                    <td class="jsearch-field">Varas Muñoz</td>
+                    <td class="jsearch-field">Electromecánico Montaje Gt</td>
+                    <td><a href="Perfiles/09-fabian-varas-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Felipe Eduardo</td>
+                    <td class="jsearch-field">Arriagada Herrera</td>
+                    <td class="jsearch-field">Jefe grupo Montaje GT </td>
+                    <td><a href="Perfiles/10-felipe-arriagada-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Francisco Javier</td>
+                    <td class="jsearch-field">Esparza Riquelme</td>
+                    <td class="jsearch-field">Jefe de Equipo de Mantención </td>
+                    <td><a href="Perfiles/11-francisco-esparza-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Franco Esteban </td>
+                    <td class="jsearch-field">González Toro</td>
+                    <td class="jsearch-field">Jefe de Equipo de Mantención</td>
+                    <td><a href="Perfiles/12-franco-gonzalez-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">George Adrián</td>
+                    <td class="jsearch-field">Carrasco Vega</td>
+                    <td class="jsearch-field">Técnico en Mantención y Emergencia</td>
+                    <td><a href="Perfiles/13-george-carrasco-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Gonzalo Andrés</td>
+                    <td class="jsearch-field">Valdéz Valdéz</td>
+                    <td class="jsearch-field">Ayudante Montaje PC</td>
+                    <td><a href="Perfiles/14-gonzalo-valdez-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field"> Héctor Andrés</td>
+                    <td class="jsearch-field">Mera Avello</td>
+                    <td class="jsearch-field">Supervisor Técnico, Mantención</td>
+                    <td><a href="Perfiles/15-hector-mera-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Joaquín Ignacio</td>
+                    <td class="jsearch-field">González Astorga</td>
+                    <td class="jsearch-field">Ayudante Montaje PC</td>
+                    <td><a href="Perfiles/16-joaquin-gonzalez-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Jorge Gabriel</td>
+                    <td class="jsearch-field">Pérez Velásquez</td>
+                    <td class="jsearch-field">Ayudante Montaje PC</td>
+                    <td><a href="Perfiles/17-jorge-perez-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Jovany Francisco</td>
+                    <td class="jsearch-field">Rojas Herrera</td>
+                    <td class="jsearch-field">Jefe de Equipo de Mantención</td>
+                    <td><a href="Perfiles/18-jovany-rojas-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Leonardo Feliciano</td>
+                    <td class="jsearch-field">Osorio Catrilaf</td>
+                    <td class="jsearch-field">Electromecánico Montaje Gt</td>
+                    <td><a href="Perfiles/19-leonardo-osorio-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Luis Fernando</td>
+                    <td class="jsearch-field">Ortiz Gutiérrez</td>
+                    <td class="jsearch-field">Jefe Montaje PC</td>
+                    <td><a href="Perfiles/20-luis-ortiz-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Mario Alfredo</td>
+                    <td class="jsearch-field">Vergara Pérez</td>
+                    <td class="jsearch-field">Jefe grupo Montaje GT</td>
+                    <td><a href="Perfiles/21-mario-vergara-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Matías Felipe</td>
+                    <td class="jsearch-field">González Silva</td>
+                    <td class="jsearch-field">Técnico en Mantención y Emergencia </td>
+                    <td><a href="Perfiles/22-matias-gonzalez-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Patricio Alberto</td>
+                    <td class="jsearch-field">Fernández González </td>
+                    <td class="jsearch-field">Jefe Montaje PC </td>
+                    <td><a href="Perfiles/23-patricio-fernandez-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Ricardo Andrés</td>
+                    <td class="jsearch-field">Leal Tapia </td>
+                    <td class="jsearch-field">Jefe grupo Montaje GT</td>
+                    <td><a href="Perfiles/24-ricardo-leal-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Rogelio Antonio</td>
+                    <td class="jsearch-field">Mella Peralta</td>
+                    <td class="jsearch-field">Electromecánico Montaje Gt</td>
+                    <td><a href="Perfiles/25-rogelio-mella-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">Sebastián Andrés</td>
+                    <td class="jsearch-field">Valenzuela Ensemeyer</td>
+                    <td class="jsearch-field">Jefe de Equipo de Mantención</td>
+                    <td><a href="Perfiles/26-sebastian-valenzuela-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">NOMBRES</td>
+                    <td class="jsearch-field">APELLIDOS</td>
+                    <td class="jsearch-field">CARGO</td>
+                    <td><a href="Perfiles/27-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">NOMBRES</td>
+                    <td class="jsearch-field">APELLIDOS</td>
+                    <td class="jsearch-field">CARGO</td>
+                    <td><a href="Perfiles/28-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">NOMBRES</td>
+                    <td class="jsearch-field">APELLIDOS</td>
+                    <td class="jsearch-field">CARGO</td>
+                    <td><a href="Perfiles/29-perfil.html">>Ver ficha</a></td>
+                </tr>
+                <tr class="jsearch-row">
+                    <td class="jsearch-field">NOMBRES</td>
+                    <td class="jsearch-field">APELLIDOS</td>
+                    <td class="jsearch-field">CARGO</td>
+                    <td><a href="Perfiles/30-perfil.html">>Ver ficha</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-right"><a href="#">↑ Volver Arriba</a></p>
+            <p>&copy; 2021 Heavy Duty, SA. &middot; <a href="#Lista">Home</a></p>
+        </footer>
+
+
+
+
+
+
+        <script>
+            $("#jquery-search-sample").jsearch({ minLength: 2 });
+        </script>
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36251023-1']);
+            _gaq.push(['_setDomainName', 'jqueryscript.net']);
+            _gaq.push(['_trackPageview']);
+
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+
+        <!-- Bootstrap -->
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+            integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

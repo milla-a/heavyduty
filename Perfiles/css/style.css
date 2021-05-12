@@ -1,0 +1,34 @@
+
+
+.avatar{
+    width: 150px;
+}
+
+#Titulo{
+    padding-top: 20px;
+}
+#section1{
+    padding: 2%;
+}
+#section2{
+    padding: 3%;
+}
+
+.masInfo{
+    padding: 5% 15%;
+}
+
+
+
+
+@media (min-width: 900px) {
+    
+   
+    .container{
+        padding-top: 5% auto;
+        
+        width: 50%;
+   
+    }
+}
+
