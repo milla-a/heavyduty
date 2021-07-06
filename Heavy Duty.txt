@@ -1,0 +1,27 @@
+WORDPRESS
+user: HeavyDuty
+pass: Y73UHcc*8m
+
+
+https://personal.hd.cl
+Administrative URL : https://personal.hd.cl/wp-admin/
+
+
+CUENTA FTP
+FTP Username: personal@hd.cl
+FTP server: ftp.hd.cl
+FTP & explicit FTPS port:  21
+pass: Y73UHcc*8m
+
+____________________________________
+GITHUB
+User: cmuñoz@hd.cl
+pass: ClaudioMuñoz2021
+
+
+
+
+dns están en microsoftonline.com
+nic.cl - hd.cl
+deben apuntar al servidor desde mcirosoft online
+crear subdominio hacia el ip nuestro 201.148.105.134
