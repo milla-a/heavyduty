@@ -7,4 +7,16 @@
     padding: 15% 0%;
   }
 }
+
+@media (max-width: 700px) {
+  th{
+    font-size: 0.6rem;
+  }
+  td{
+    font-size: 0.4rem;
+  }
+}
+
+
+
 /*# sourceMappingURL=styles.css.map */
